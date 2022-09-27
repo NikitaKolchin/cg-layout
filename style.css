@@ -1,25 +1,23 @@
 .container {
     margin: auto;
-}
-.header {
-    flex-direction:column;
-    justify-content: baseline;
-    align-items: flex-end;
-    display: flex;
-    background-color: red;
     width: 80%;
 }
-.top-menu {
+.header, .menu, .top-menu, .top-menu-left-list, .top-menu-right-list,.main-menu-list, .top-menu-left {
     display: flex;
+}
+.menu {
+    flex-direction:column;
     width: 100%;
 }
 
-.top-menu-left-list{
-    display: flex;
+.top-menu{
+   justify-content: space-between; 
 }
-.top-menu-right-list {
-    display: flex;
+.top-menu-left {
+    align-content: flex-end;
 }
+
 .main-menu-list {
-    display: flex;
+    justify-content: space-between; 
+    
 }
