@@ -21,3 +21,11 @@
     justify-content: space-between; 
     
 }
+
+.top-menu-left-list, .top-menu-right-list {
+    background-color: aquamarine;
+}
+li {
+    font-size: 7pt;  
+    margin-right: 15px;  
+}
