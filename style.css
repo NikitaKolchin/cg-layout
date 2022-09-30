@@ -1,20 +1,22 @@
 .container {
+    width: 1136px;
     margin: auto;
-    width: 80%;
+    font-family: 'Montserrat', sans-serif;   
 }
 .header, .menu, .top-menu, .top-menu-left-list, .top-menu-right-list,.main-menu-list, .top-menu-left {
     display: flex;
 }
+
 .menu {
     flex-direction:column;
     width: 100%;
 }
 
-.top-menu{
+.top-menu {
    justify-content: space-between; 
 }
 .top-menu-left {
-    align-content: flex-end;
+    align-items:center;
 }
 
 .main-menu-list {
@@ -22,10 +24,15 @@
     
 }
 
-.top-menu-left-list, .top-menu-right-list {
-    background-color: aquamarine;
+/* .top-menu-left-list, .top-menu-right-list {
+
+} */
+ul {
+    margin: 4px;
+    padding: 4px;
+    list-style-type: none;
 }
 li {
-    font-size: 7pt;  
-    margin-right: 15px;  
+    font-size: 9pt;  
+    margin-right: 35px; 
 }
