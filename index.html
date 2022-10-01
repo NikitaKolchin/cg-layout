@@ -9,119 +9,159 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <nav class="menu">    
-                <nav class="top-menu">
-                    <nav class="top-menu-left">
-                        <ul class="top-menu-left-list">
-                            <li class="logo"><a href="" class="logo"><img src="images/logo.svg">РУБЛЬБАНК</a></li>
-                            <li><a href="">Оделения и банкоматы</a></li>
-                            <li><a href="">Самозанятым</a></li>
-                            <li><a href="">Бизнесу</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="top-menu-right">
-                        <ul class="top-menu-right-list">
-                            <li><a href="">Частным клиентам</a></li>
-                            <li ><a href="" class="online">Рубльбанк онлайн</a></li>
-                        </ul>
-                    </nav>
-                </nav>    
-                <nav class="main-menu">
-                    <ul class="main-menu-list">
-                        <li><a href="">Сервисы</a></li>
-                        <li><a href="">Рефинансирование</a></li>
-                        <li><a href="">Страхование</a></li>
-                        <li><a href="">Переводы</a></li>
-                        <li><a href="">Инвестиции</a></li>
-                        <li><a href="">Карты</a></li>
-                        <li><a href="">Вклады</a></li>
-                        <li><a href="">Кредиты</a></li>
-                        <li><a href="">Ипотека</a></li>
-                    </ul>
-                </nav>
+        <header class="header"> 
+            <nav class="top-menu">
+                <div class="logo"><img src="images/logo.svg"></div>
+                <ul class="top-menu-left-list">                            
+                    <li><a href="">Оделения и банкоматы</a></li>
+                    <li><a href="">Самозанятым</a></li>
+                    <li><a href="">Бизнесу</a></li>
+                </ul>
+                <ul class="top-menu-right-list">
+                    <li><a href="">Частным клиентам</a></li>
+                    <li><a href="" class="online">Рубльбанк онлайн</a></li>
+                </ul>
+            </nav>    
+            <nav class="main-menu">
+                <ul class="main-menu-list">
+                    <li><a href="">Сервисы</a></li>
+                    <li><a href="">Рефинансирование</a></li>
+                    <li><a href="">Страхование</a></li>
+                    <li><a href="">Переводы</a></li>
+                    <li><a href="">Инвестиции</a></li>
+                    <li><a href="">Карты</a></li>
+                    <li><a href="">Вклады</a></li>
+                    <li><a href="">Кредиты</a></li>
+                    <li><a href="">Ипотека</a></li>
+                </ul>
             </nav>
         </header>
-<!-- 
+
         <section class="content">
             <section class="main-banner">
-                <h1>Кредит <br> на любые цели</h1>
-                <button class="main-button">Получить кредит</button>
-                <button class="button-more">Подробнее</button>
-                <img src="https://via.placeholder.com/250" alt="Кредит на любые цели">
+                <div>
+                    <h1>Кредит <br> на любые цели</h1>
+                    <button class="main-button">Получить кредит</button>
+                    <button class="button-more">Подробнее</button>
+                </div>
+                <img src="images/man.svg" alt="Кредит на любые цели">
             </section>
             <section class="best-offer">
-                <h2>Лучшие предложения в Рубльбанке</h2>
-                <p>Банковские продукты для комфортной жизни</p>
-                <article class="best-offer-items">
-                    <h3>Ипотечное кредитование</h3>
-                    <p>Программы господдержки <br>Выгодные условия</p>
-                    <img src="https://via.placeholder.com/150" alt="Ипотечное кредитование"> 
-                </article>
-                <article class="best-offer-items">
-                    <h3>Накопительные счета</h3>
-                    <p>Ставки от 7,5% <br> Снятие в любое время</p>
-                    <img src="https://via.placeholder.com/150" alt="Накопительные счета"> 
-                </article>
-                <article class="best-offer-items">
-                    <h3>Персональные карты</h3>
-                    <p>Карта с эксклюзивным дизайном для постоянных клиентов</p>
-                    <img src="https://via.placeholder.com/150" alt="Персональные карты"> 
-                </article>
-                <article class="best-offer-items">
-                    <h3>Партнерские программы</h3>
-                    <p>Выгодные условия для путешествий и покупок</p>
-                    <img src="https://via.placeholder.com/150" alt="Партнерские программы"> 
-                </article>
+                <div class="best-offer-header">
+                        <h2>Лучшие предложения в Рубльбанке</h2>
+                        <p>Банковские продукты для комфортной жизни</p>
+                </div>
+                <div class="best-offer-line-items">
+                    <article class="best-offer-inline-items">
+                        <div>
+                            <h3>Ипотечное кредитование</h3>
+                            <p>Программы господдержки <br>Выгодные условия</p>
+                        </div>
+                        <img src="images/hypothec.svg" alt="Ипотечное кредитование"> 
+                    </article>
+                    <article class="best-offer-inline-items">
+                        <div>
+                            <h3>Накопительные счета</h3>
+                            <p>Ставки от 7,5% <br> Снятие в любое время</p>
+                        </div>
+                        <img src="images/pig.svg" alt="Накопительные счета"> 
+                    </article>
+                </div>
+                <div class="best-offer-line-items">
+                    <article class="best-offer-inline-items">
+                        <div>
+                            <h3>Персональные карты</h3>
+                            <p>Карта с эксклюзивным <br> дизайном <br> для постоянных клиентов</p>
+                        </div>
+                        <img src="images/cards.svg" alt="Персональные карты"> 
+                    </article>
+                    <article class="best-offer-inline-items">
+                        <div>
+                            <h3>Партнерские программы</h3>
+                            <p>Выгодные условия <br> для путешествий <br> и покупок</p>
+                        </div>
+                        <img src="images/partner.svg" alt="Партнерские программы"> 
+                    </article>
+                </div>
             </section>
             <section class="card">
-                <article class="card-items-main">
-                    <h2>Кредитная карта 60 дней без процентов</h2>
-                    <img src="https://via.placeholder.com/100" alt="Кредитная карта 60 дней без процентов"> 
-                    <p> 
-                        500 000 ₽
-                        <hr>
-                        лимит по карте
-                    </p>
-                    <p>
-                        от 12%
-                        <hr>
-                        ставка по карте
-                    </p>
-                    <p>
-                        1 день
-                        <hr>
-                        решение по заявке
-                    </p>
-                    <button class="main-button">Оформить карту</button>
-                    <button class="button-more">Подробнее</button>
-                </article>
-                <article class="card-items-side">
-                    <p>Кредитные карты</p>
-                    <img src="https://via.placeholder.com/50" alt=""> 
-                        
-                </article>
-                <article class="card-items-side">
-                    <p>Дебетовые карты</p>
-                    <img src="https://via.placeholder.com/50" alt=""> 
-                </article>
+                <div class="card-main-items">
+                    <article class="card-main-item">
+                        <h2>Кредитная карта 60 дней без процентов</h2>
+                        <img src="images/card.svg" alt="Кредитная карта 60 дней без процентов"> 
+                    </article>
+                    <article class="card-item">
+                        <div>
+                            <p> 
+                                500 000 ₽
+                            </p>
+                                <hr>
+                            <p>
+                                лимит по карте
+                            </p>
+                        </div>
+                        <div>
+                            <p> 
+                                от 12%
+                            </p>
+                                <hr>
+                            <p>
+                                ставка по карте
+                            </p>
+                        </div>
+                        <div>
+                            <p> 
+                                1 день
+                            </p>
+                                <hr>
+                            <p>
+                                решение по заявке
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <button class="main-button">Оформить карту</button>
+                        <button class="button-more">Подробнее</button>
+                    </article>
+                </div>
+                <div>
+                    <article class="card-items-side">
+                        <p>Кредитные карты</p>
+                        <img src="images/arrow.svg" alt=""> 
+                            
+                    </article>
+                    <article class="card-items-side">
+                        <p>Дебетовые карты</p>
+                        <img src="images/arrow.svg" alt=""> 
+                    </article>
+                </div>
             </section>
 
             <section class="how-to-get">
                 <h2>Как получить карту</h2>
-                <a href=""><img src="https://via.placeholder.com/50" alt=""> Оставить заявку</a>
-                <a href=""><img src="https://via.placeholder.com/50" alt=""> Получить одобрение</a>
-                <a href=""><img src="https://via.placeholder.com/50" alt=""> Забрать карту</a>
+                <div>
+                    <a href=""><img src="images/req.svg" alt=""> Оставить заявку</a> >
+                    <a href=""><img src="images/obobrenie.svg" alt=""> Получить одобрение</a> >
+                    <a href=""><img src="images/get.svg" alt=""> Забрать карту</a> >
+                </div>
+
             </section>
-        </section>-->
+        </section>
         <footer class="footer">
-            <p>© 2001-2020 Рубльбанк</p>
-            <a href="">Обратная связь</a>
-            <p>Информация о процентных ставках по договорам банковского вклада с физическими лицами </p>
-            <br>
-            <p>Генеральная лицензия на осуществление банковских операций от 11 августа 2015 года. Регистрационный номер - 1234.</p>
-            <p>Россия, Москва, 113337, ул. Советская, д. 42</p>
-            <p>Информация, обязательная к размещению</p>
+            <div class="in-footer">
+                <p>© 2001-2020 Рубльбанк</p>
+                <p>Генеральная лицензия на осуществление банковских операций от 11 августа 2015 года. Регистрационный номер - 1234.</p>
+            </div >
+            <div class="in-footer">
+                <a href="">Обратная связь</a>
+                <p>Россия, Москва, 113337, ул. Советская, д. 42</p>
+            </div>
+            <div class="in-footer">
+                <p>Информация о процентных ставках по договорам банковского вклада с физическими лицами </p>
+                <p>Информация, обязательная к размещению</p>
+            </div>
+            
+
         </footer> 
     </div>
 </body>
