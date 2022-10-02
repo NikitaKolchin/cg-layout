@@ -33,7 +33,9 @@
     justify-content: center;
     margin: 30px;
 }
-
+.main-banner div, .main-banner img {
+    margin: 30px;
+}
 .best-offer{
 
     display: flex;
@@ -61,39 +63,61 @@
     justify-content: space-around;
 
 }
-
+.best-offer-inline-items h3, .best-offer-inline-items p {
+    margin: 10px;
+}
  .card {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    margin: 10px;
     background-color: rgb(235, 235, 235);
 }
  .card-main-items {
-    width: 750px;
-    height: 500px;
+    margin: 10px;
+    width: 810px;
+    height: 540px;
     background: #E0E5EA;
     box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 .card-main-item {
+    margin: 10px;
     display: flex;
 }
 .card-item { 
     display: flex;
-}
-.card-item div{ 
     margin: 10px;
 }
+.card-item div { 
+    margin: 10px;
+}
+
+.card-item button{ 
+    margin: 5px;
+}
+
+.card-side {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
 
 .card-items-side {
     margin: 10px;
     background-color: white;
-    width: 360px;
-    height: 235px;
+    width: 410px;
+    height: 260px;
     background: #F7F7F7;
     box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    border-bottom: 3px solid #3A95FF;
+}
+
+.card-items-side p, .card-items-side img{
+    margin: 10px;
 }
 
 .how-to-get {
@@ -101,7 +125,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 100px;
+}
+
+.how-to-get-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-to-get-items div{
+margin: 30px;
 }
 .main-button {
     background-color: #3A95FF;
@@ -131,8 +164,16 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
-    font-size: 12px;
+    
 }
+.in-footer {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    margin: 10px;
+}
+
 
 
 h1 {
