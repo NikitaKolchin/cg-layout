@@ -2,7 +2,7 @@
     /* width: 1200px; */
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif; 
-    font-size: 19pt;
+    font-size: 17pt;
     margin: auto;
 }
 /* header */
@@ -26,6 +26,9 @@
     justify-content: space-between;  
     padding: 0px;
     list-style-type: none;
+}
+.top-menu-left-list li, .top-menu-right-list li {
+    margin-right: 10px;
 }
 
 
