@@ -10,6 +10,14 @@ body{
 .sb {
     justify-content: space-between;
 }
+
+.fdc {
+    flex-direction: column;
+}
+
+.aib {
+    align-items: baseline;
+}
 .menu-list {
     width: 1170px;
     height: 80px;
@@ -17,6 +25,58 @@ body{
     font-size: 16px;
     padding: 0;
 }
+
+.container {
+    padding-top: 40px;
+    margin: auto;
+
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+.shadow-up {
+    box-shadow:  0px -5px 5px #888;
+}
+.shadow-bottom {
+    box-shadow:  0px 15px 5px #888;
+}
+
+.w1170 {
+    width: 1170px;
+}
+
+.h400 {
+    height: 400px;
+}
+
+.fullstack-main {
+    width: 500px;
+}
+
+.fullstack-bottom {
+    width: 1170px;
+    justify-content: flex-start;
+}
+
+.line {
+    width: 1170px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pr40 {
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+
 
 .btn-white {
     padding: 10px 24px;
@@ -34,44 +94,6 @@ body{
     color: white;
     font-size: 16px;
 }
-
-.main {
-    width: 1170px;
-}
-
-.fullstack-main {
-    width: 500px;
-}
-
-.fullstack-bottom {
-    width: 1170px;
-    justify-content: flex-start;
-}
-
-.fullstack-btn {
-    width: 1170px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.pr40 {
-    padding-right: 40px;
-}
-
-.container-gray {
-    padding-top: 40px;
-    margin: auto;
-    background-color: lightgray;
-    box-shadow:  0px -5px 5px #888;
-}
-
-
-
-
-
-
-
-
 
 
 
