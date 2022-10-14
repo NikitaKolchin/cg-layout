@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -57,13 +60,13 @@
             <h2>О курсе</h2>
         </div>
         <div class="w1170 flex sb">
-            <div>
+            <div class="pr40">
                 <p>На курсе Fullstack-разработки на JavaScript изучаем профессиональные инструменты front-end и back-end разработки React и Node.js, СУБД MySQL и MongoDB. Требования к слушателям на входе: знания html, css, основ программирования на javascript.
-                    <br> На курсе преподают эксперты из IT-компаний Lad. В конце обучения слушатели курса защищают итоговые проекты. Лучшие получают приглашение поступить на стажировку, в интернатуру или в штат IT-компании.
-                    <br>
-                    Мы изучаем:
+                    <br> <br> На курсе преподают эксперты из IT-компаний Lad. В конце обучения слушатели курса защищают итоговые проекты. Лучшие получают приглашение поступить на стажировку, в интернатуру или в штат IT-компании.
+                    <br> <br>
+                    Мы изучаем: <br>
                 </p>
-                <div class="flex sb">
+                <div class="flex sb pr40">
                     <img src="images/react.svg" alt="">
                     <img src="images/react_redux.svg" alt="">
                     <img src="images/nodejs.svg" alt="">
@@ -72,26 +75,26 @@
                     <img src="images/mysql.svg" alt="">
                 </div>
             </div>
-            <img  src="images/people.png" alt="">  
+            <img src="images/people.png" alt="">  
         </div>
         <div class="w1170 flex sb aib">
-            <div class="h400 shadow-bottom">
+            <div class="h400 shadow-bottom ptb40">
                 <img src="images/line.svg" alt="">
-                <h2>Кому подойдет этот курс</h2>
+                <h2 class="pl30">Кому подойдет этот курс</h2>
                 <ul>
-                    <li>Начинающим JavaScript-разработчикам </li>
-                    <li>Начинающим разработчикам на React</li>
-                    <li>Начинающим Backend-разработчикам</li>
+                    <li class="pt20">Начинающим JavaScript-разработчикам </li>
+                    <li class="pt20">Начинающим разработчикам на React</li>
+                    <li class="pt20">Начинающим Backend-разработчикам</li>
                 </ul>
             </div>
-            <div class="h400 shadow-bottom">
+            <div class="h400 shadow-bottom ptb40">
                 <img src="images/line.svg" alt="">
-                <h2>Требования к курсу</h2>
+                <h2 class="pl30">Требования к курсу</h2>
                 <ul>
-                    <li>Знания HTML/CSS</li>
-                    <li>Базовые знания JavaScript</li>
-                    <li>Знания MySQL (будет плюсом)</li>
-                    <li>Базовые навыки работы с Git (будет плюсом)</li>
+                    <li class="pt20">Знания HTML/CSS</li>
+                    <li class="pt20">Базовые знания JavaScript</li>
+                    <li class="pt20">Знания MySQL (будет плюсом)</li>
+                    <li class="pt20">Базовые навыки работы с Git (будет плюсом)</li>
                 </ul>
             </div>
         </div>
@@ -101,19 +104,19 @@
                 <p>Друзья HiBrain — ведущие IT-компании. Вместе с ними мы разрабатываем программы курсов, <br> чтобы наши слушатели получили самые актуальные знания и навыки. Эксперты из компаний-партнёров <br> помогают нам в подготовке практических кейсов и даже принимают экзамены у выпускников.</p>
             </div>
             <div class="w1170 flex aib">
-                <div>
+                <div class="pr40">
                     <img src="images/terichev.svg" alt="">
                     <h3>Теричев Максим</h3>
                     <img src="images/short_line.svg" alt="">
                     <p>Технический лидер подразделения <br> «Новые проекты» в компании Lad</p>
                 </div>
-                <div>
+                <div class="pr40">
                     <img src="images/khrapov.svg" alt="">
                     <h3>Храпов Алексей</h3>
                     <img src="images/short_line.svg" alt="">
                     <p>JavaScript developer в компании Lad</p>
                 </div>
-                <div>
+                <div class="pr40">
                     <img src="images/talanov.svg" alt="">
                     <h3>Таланов Максим</h3>
                     <img src="images/short_line.svg" alt="">
@@ -132,7 +135,7 @@
                 <p>Выпускники курсов HiBrain получают уникальную возможность применить новые знания: <br> компании-партнёры проекта ждут наших слушателей на стажировки и предлагают трудоустройство.</p>
     
             </div>
-            <div class="w1170 flex sb">
+            <div class="w1170 flex sb ptb40">
                 <img src="images/intel.svg" alt="">
                 <img src="images/intel.svg" alt="">
                 <img src="images/intel.svg" alt="">
@@ -152,7 +155,7 @@
         <div class="w1170 flex sb">
             <div class="flex fdc">
                 <div class="flex sb afs white w500 m10">
-                    <div>
+                    <div class="pl30">
                         <h3>1 / Front-end разработка</h3>
                         <p>
                             Пишем браузерную часть web-приложения на React. Разбираем инициализацию react-приложения, структуру проекта и работу с npm, виртуальный DOM, компоненты, props и states, особенности потока данных, классовые и функциональные компоненты, менеджер состояний Redux, роутинг и многое другое
@@ -161,24 +164,23 @@
                     <img src="images/cross.svg" alt="">
                 </div>
                 <div class="flex sb white w500 m10">
-                    <h3>2 / Back-end разработка</h3> 
+                    <h3 class="pl30">2 / Back-end разработка</h3> 
                     <img src="images/plus.svg" alt="">
                 </div>
                 <div class="flex sb white w500 m10"> 
-                    <h3>3 / Базы данных и СУБД</h3> 
+                    <h3 class="pl30">3 / Базы данных и СУБД</h3> 
                     <img src="images/plus.svg" alt="">
                 </div>
             </div>
             <img src="images/coder.svg" alt="">
         </div>
-        <div class="overlap w1170 h300 flex fs">
+        <div class="overlap w1170 h300 flex sa">
             <div>
                 <h2>Записаться на курс</h2>
                 <p><span>Площадка проведения: ННГУ </span><img src="images/map.svg" alt=""></p>
                 <p><span>г. Нижний Новгород, проспект Гагарина, 23, корпус 2</span> <img src="images/home.svg" alt=""></p>
-                <p><a href="" class="btn-blue">ЗАПИСАТЬСЯ</a></p>
+                <p class="ptb40"><a href="" class="btn-blue">ЗАПИСАТЬСЯ</a></p>
             </div>
-            <hr class="gray">
             <div>
                 <img src="images/univer.svg" alt="">
             </div>
@@ -195,7 +197,7 @@
             <div class="f w500 fs">
                 <img src="images/hibrain_b.svg" alt="">
                 <hr>
-                <p>Платформа подготовки и трудоустройства <br>IT-специалистов</p>
+                <p class="text-gray">Платформа подготовки и трудоустройства <br>IT-специалистов</p>
             </div>
             <div>
                 <img src="images/fb.svg" alt="">
@@ -205,18 +207,18 @@
 
         </div>
         <ul class="flex sb menu-list">
-            <li><a href="">Курсы</a></li>
-            <li><a href="">Трудоустройство</a></li>
-            <li><a href="">Сотрудничество</a></li>
-            <li><a href="">О HiBrain</a></li>
-            <li><a href="">Новости</a></li>
-            <li><a href="">Контакты</a></li>
+            <li><a class="text-white" href="">Курсы</a></li>
+            <li><a class="text-white" href="">Трудоустройство</a></li>
+            <li><a class="text-white" href="">Сотрудничество</a></li>
+            <li><a class="text-white" href="">О HiBrain</a></li>
+            <li><a class="text-white" href="">Новости</a></li>
+            <li><a class="text-white" href="">Контакты</a></li>
         </ul>
         <div class="w1170 flex sb">
-            <p>© ООО «Лад Ай Ти», 2020</p>
-            <p>Политика конфиденциальности</p>
-            <p>support@hibrain.pro</p>
-            <p>8 800 000 00 00</p>
+            <p class="text-gray">© ООО «Лад Ай Ти», 2020</p>
+            <p class="text-gray">Политика конфиденциальности</p>
+            <p class="text-gray">support@hibrain.pro</p>
+            <p class="text-gray">8 800 000 00 00</p>
 
         </div>
 
