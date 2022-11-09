@@ -57,3 +57,11 @@ h1 {
     width: 1240px;
     margin: auto;
 }
+
+.menu {
+    width: 706px;
+}
+
+.menu--ls-none {
+    list-style: none;
+}
