@@ -13,22 +13,44 @@
 </head>
 
 <body>
-  <header class="container d-flex flex-sb">
-    <div>
-        <img src="images/logo.svg" alt="">
-    </div>
+  <header class="container header d-flex flex-sb flex-ac">
+    <img src="images/logo.svg" alt="">
     <nav class="menu">
-        <ul class="d-flex flex-sb menu--ls-none">
-            <li><a href="">The experience</a></li>
-            <li><a href="">Booking info</a></li>
-            <li><a href="">Our locations</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Reviews</a></li>
-            <li><a href="">Contact us</a></li>
-        </ul>
+      <ul class="d-flex flex-sb menu--decor text-dg">
+          <li><a class = "menu__item" href="">The experience</a></li>
+          <li><a class = "menu__item" href="">Booking info</a></li>
+          <li><a class = "menu__item" href="">Our locations</a></li>
+          <li><a class = "menu__item" href="">Gallery</a></li>
+          <li><a class = "menu__item" href="">Reviews</a></li>
+          <li><a class = "menu__item" href="">Contact us</a></li>
+      </ul>
     </nav>
-
   </header>
+  <section class="rooftop">
+    <div class="container d-flex flex-ac">
+      <div class="rooftop-cont d-flex flex-col flex-sb">
+        <div>
+          <p class="text-dg rooftop--tx-small uppercase">Open-Air Film Experience</p> <br>
+          <h1 class="text-js rooftop--tx-big">Rooftop Cinema</h1><br>
+          <p class="text-dg rooftop--tx-medium">To turn your movie night into an adventure</p>
+        </div>
+        <div class="rooftop__btns d-flex">
+          <a class="btn text-dg btn--prim d-flex uppercase" href="">Book a day</a>
+          <a class="btn text-dg btn--sec d-flex uppercase">How it works</a>
+        </div>
+      </div>
+      <div>
+        <img class="rooftop__img" src="images/bg.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="benefits">
+    <div class="container d-flex">
+      <img class="benefits__video" src="images/video.jpg" alt="">
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste dolorem fugit aspernatur voluptatum aut suscipit eveniet delectus ipsam, veritatis nobis! Inventore quisquam numquam facere earum, architecto totam quod nisi?</div>
+    </div>
+
+  </section>
 
 </body>
 </html>

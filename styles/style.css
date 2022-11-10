@@ -34,16 +34,15 @@
     font-display: swap;
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    font-family: 'Darker Grotesque', sans-serif;
     background-color: rgba(18, 21, 33, 1);
 }
 
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
+ /* служебные классы */
 
 .d-flex {
     display: flex;
@@ -51,6 +50,14 @@ h1 {
 
 .flex-sb {
     justify-content: space-between;
+    
+}
+.flex-ac {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
 }
 
 .container {
@@ -58,10 +65,100 @@ h1 {
     margin: auto;
 }
 
+.text-js {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-dg {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* верхнее меню */
+
+
+.header {
+    height: 140px;
+}
+
 .menu {
     width: 706px;
 }
 
-.menu--ls-none {
+.menu--decor {
     list-style: none;
+}
+
+.menu__item {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Rooftop cinema */
+
+.rooftop{
+    
+}
+
+.rooftop-cont {
+    width: 455px;
+    height: 382px;
+    margin-right: 40px;
+}
+
+.btn{
+    height: 59px;
+    width: 176px;
+    margin-right: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+.btn--prim {
+    background-color: #40467C;
+}
+
+.btn--sec {
+    outline: 2px solid white;
+    outline-offset: -2px;
+
+}
+
+.rooftop__img {
+    overflow: hidden;
+    height: 750px;
+    width: 1051px;
+}
+
+
+.rooftop--tx-small{
+    font-size: 25px;
+    color: #B2B2D3; 
+}
+   
+.rooftop--tx-big{
+    font-size: 45px;
+    font-weight: normal;
+    color: #fff;
+}
+.rooftop--tx-medium 
+{ 
+    font-size: 30px;
+    color: #B2B2D3;
+}
+
+/* benefits */
+
+
+.benefits {
+    
+}
+.benefits__video {
+    width: 606px;
+    height: 524px;
 }
