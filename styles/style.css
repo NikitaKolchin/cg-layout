@@ -103,7 +103,7 @@ body {
 /* Rooftop cinema */
 
 .rooftop{
-    
+    margin-bottom: 80px;
 }
 
 .rooftop-cont {
@@ -159,7 +159,7 @@ body {
 
 
 .benefits {
-    
+   
 }
 .video {
     width: 606px;
@@ -167,6 +167,7 @@ body {
 }
 
 .benefits--tx-big{
+    margin: 40px;
     font-size: 40px;
     font-weight: normal;
     color: #fff;
@@ -184,5 +185,10 @@ body {
 }
    
 .benefits-cont--two-cols {
+    margin: 20px;
     grid-template-columns: repeat(2,1fr)
+}
+
+.benefits-cont__item {
+    margin: 20px;
 }
