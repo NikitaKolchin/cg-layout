@@ -48,6 +48,10 @@ body {
     display: flex;
 }
 
+.d-grid {
+    display: grid;
+}
+
 .flex-sb {
     justify-content: space-between;
     
@@ -134,13 +138,7 @@ body {
     height: 750px;
     width: 1051px;
 }
-
-
-.rooftop--tx-small{
-    font-size: 25px;
-    color: #B2B2D3; 
-}
-   
+ 
 .rooftop--tx-big{
     font-size: 45px;
     font-weight: normal;
@@ -152,13 +150,39 @@ body {
     color: #B2B2D3;
 }
 
+.rooftop--tx-small{
+    font-size: 25px;
+    color: #B2B2D3; 
+}
+  
 /* benefits */
 
 
 .benefits {
     
 }
-.benefits__video {
+.video {
     width: 606px;
     height: 524px;
+}
+
+.benefits--tx-big{
+    font-size: 40px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.benefits--tx-medium 
+{ 
+    font-size: 25px;
+    color: white;
+}
+
+.benefits--tx-small{
+    font-size: 20px;
+    color: #B2B2D3; 
+}
+   
+.benefits-cont--two-cols {
+    grid-template-columns: repeat(2,1fr)
 }
