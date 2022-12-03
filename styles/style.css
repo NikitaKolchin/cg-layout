@@ -1,4 +1,38 @@
 @font-face {
+    font-family: 'Giga Sans';
+    src: url('../fonts/GigaSans-Medium.woff2') format('woff2'),
+        url('../fonts/GigaSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Giga Sans';
+    src:url('../fonts/GigaSans-Regular.woff2') format('woff2'),
+        url('../fonts/GigaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Giga Sans Semi';
+    src: url('../fonts/GigaSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/GigaSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lighthaus';
+    src: url('../fonts/Lighthaus.woff2') format('woff2'),
+        url('../fonts/Lighthaus.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
     font-family: 'Darker Grotesque';
     src: url('../fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
         url('../fonts/DarkerGrotesque-SemiBold.woff') format('woff');
@@ -70,10 +104,10 @@ body {
 }
 
 .text-js {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lighthaus', sans-serif;
 }
 .text-dg {
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Giga Sans Semi', sans-serif;
 }
 
 .uppercase {
@@ -191,4 +225,17 @@ body {
 
 .benefits-cont__item {
     margin: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
