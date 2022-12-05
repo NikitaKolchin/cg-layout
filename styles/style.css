@@ -32,48 +32,9 @@
 }
 
 
-@font-face {
-    font-family: 'Darker Grotesque';
-    src: url('../fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
-        url('../fonts/DarkerGrotesque-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Darker Grotesque';
-    src: url('../fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
-        url('../fonts/DarkerGrotesque-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Darker Grotesque';
-    src: url('../fonts/DarkerGrotesque-Medium.woff2') format('woff2'),
-        url('../fonts/DarkerGrotesque-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Josefin Sans';
-    src: url('../fonts/JosefinSans-Regular.woff2') format('woff2'),
-        url('../fonts/JosefinSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 * {
     margin: 0;
     padding: 0;
-}
-body {
-    background-color: rgba(18, 21, 33, 1);
 }
 
  /* служебные классы */
@@ -88,8 +49,9 @@ body {
 
 .flex-sb {
     justify-content: space-between;
-    
 }
+
+
 .flex-ac {
     align-items: center;
 }
@@ -99,15 +61,19 @@ body {
 }
 
 .container {
-    width: 1240px;
+    width: 1200px;
     margin: auto;
 }
 
-.text-js {
+.text-gs {
     font-family: 'Lighthaus', sans-serif;
 }
-.text-dg {
+.text-lh {
     font-family: 'Giga Sans Semi', sans-serif;
+}
+
+.text-size-medium {
+
 }
 
 .uppercase {
@@ -118,11 +84,16 @@ body {
 
 
 .header {
-    height: 140px;
+    background-color: #FFFFFF;
+    border-top: #045569 solid;
+    border-top-width: 1px;
+    height: 80px;
+    border-bottom: #045569 solid;
+    border-bottom-width: 1px;
 }
 
 .menu {
-    width: 706px;
+    width: 450px;
 }
 
 .menu--decor {
@@ -131,7 +102,34 @@ body {
 
 .menu__item {
     text-decoration: none;
-    color: #fff;
+    color: #045569;
+}
+
+.menu__item--tx-medium {
+    font-size: medium;
+}
+
+.btn {
+    border: 1px solid #045569;
+    width: 100px;
+    border-radius: 29%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 79, 79);
+    font-size: medium;
+}
+
+.btn--prim {
+    height: 59px;
+    width: 176px;
+    background-color: #40467C;
+}
+
+.btn--sec {
+    outline: 2px solid white;
+    outline-offset: -2px;
+
 }
 
 /* Rooftop cinema */
@@ -146,26 +144,7 @@ body {
     margin-right: 40px;
 }
 
-.btn{
-    height: 59px;
-    width: 176px;
-    margin-right: 20px;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 17px;
-}
 
-.btn--prim {
-    background-color: #40467C;
-}
-
-.btn--sec {
-    outline: 2px solid white;
-    outline-offset: -2px;
-
-}
 
 .rooftop__img {
     overflow: hidden;
