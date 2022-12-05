@@ -66,10 +66,11 @@
 }
 
 .text-gs {
-    font-family: 'Lighthaus', sans-serif;
+    font-family: 'Giga Sans Semi', sans-serif;
 }
 .text-lh {
-    font-family: 'Giga Sans Semi', sans-serif;
+    font-family: 'Lighthaus', sans-serif;
+    
 }
 
 .text-size-medium {
@@ -90,10 +91,11 @@
     height: 80px;
     border-bottom: #045569 solid;
     border-bottom-width: 1px;
+    margin-bottom: 40px;
 }
 
 .menu {
-    width: 450px;
+    width: 40%;
 }
 
 .menu--decor {
@@ -109,102 +111,89 @@
     font-size: medium;
 }
 
-.btn {
-    border: 1px solid #045569;
-    width: 100px;
-    border-radius: 29%;
+.top-btns {
+    width: 23%;
+}
+.btn-top {
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    color: rgb(104, 79, 79);
     font-size: medium;
 }
 
-.btn--prim {
-    height: 59px;
-    width: 176px;
-    background-color: #40467C;
-}
-
-.btn--sec {
-    outline: 2px solid white;
-    outline-offset: -2px;
-
-}
-
-/* Rooftop cinema */
-
-.rooftop{
-    margin-bottom: 80px;
-}
-
-.rooftop-cont {
-    width: 455px;
-    height: 382px;
-    margin-right: 40px;
-}
-
-
-
-.rooftop__img {
-    overflow: hidden;
-    height: 750px;
-    width: 1051px;
-}
- 
-.rooftop--tx-big{
-    font-size: 45px;
-    font-weight: normal;
-    color: #fff;
-}
-.rooftop--tx-medium 
-{ 
-    font-size: 30px;
-    color: #B2B2D3;
-}
-
-.rooftop--tx-small{
-    font-size: 25px;
-    color: #B2B2D3; 
-}
-  
-/* benefits */
-
-
-.benefits {
-   
-}
-.video {
-    width: 606px;
-    height: 524px;
-}
-
-.benefits--tx-big{
-    margin: 40px;
-    font-size: 40px;
-    font-weight: normal;
-    color: #fff;
-}
-
-.benefits--tx-medium 
-{ 
-    font-size: 25px;
+.btn-top--prim {
+    border: 1px solid #77C6C4;
+    background-color: #77C6C4;
     color: white;
 }
 
-.benefits--tx-small{
-    font-size: 20px;
-    color: #B2B2D3; 
-}
-   
-.benefits-cont--two-cols {
-    margin: 20px;
-    grid-template-columns: repeat(2,1fr)
+.btn-top--sec {
+    border: 1px solid #045569;
+    color: #045569;
+
 }
 
-.benefits-cont__item {
-    margin: 20px;
+/* Main */
+
+.main{
+   height: 850px;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.box--br {
+    border-top-left-radius: 80px 80px;
+}
+
+.box1 {
+    height: 400px;
+    background-color: red;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+
+}
+.box2 {
+    background-color: brown;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+
+}
+.box3 {
+    background-color: yellow;
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+
+}
+
+.box4 {
+    background-color: blue;
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+}
+
+.box5 {
+    background-color: blueviolet;
+    grid-column: 4/ 5;
+    grid-row: 2 / 5;
+}
+
+.box6 {
+    background-color: gold;
+    grid-column: 5 / 6;
+    grid-row: 1 / 5;
+
+}
+  
+
+
+
 
 .visually-hidden {
   position: absolute;
