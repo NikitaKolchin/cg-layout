@@ -139,9 +139,9 @@ a.btn-top--sec:hover{
 /* Main */
 
 .main {
-padding-top: 7%;
-   background-color: #FBFAF5;
-   height: 850px;
+    padding-top: 5%;
+    background-color: #FBFAF5;
+    height: 850px;
 }
 
 .wrapper {
@@ -228,9 +228,7 @@ padding-top: 7%;
 }
 
 .btn-main--sec {
-
     color: #045569;
-
 }
 
 
