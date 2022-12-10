@@ -158,6 +158,8 @@ a.btn-top--sec:hover{
 }
 
 .box {
+    max-width: 1200px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -184,7 +186,6 @@ a.btn-top--sec:hover{
 }
 
 .box__main {
-    height: 200px;
     grid-column: 1 / 4;
     grid-row: 1 / 3;
 
