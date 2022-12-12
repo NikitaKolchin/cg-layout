@@ -72,6 +72,11 @@
     font-family: 'Lighthaus';
 }
 
+._text-big {
+    font-size:xx-large;
+    line-height: 150%;
+}
+
 ._uppercase {
     text-transform: uppercase;
 }
@@ -84,6 +89,10 @@
 }
 ._col-normal {
     color: #43606E;
+}
+
+._col-white {
+    color: white;
 }
 
 /* верхнее меню */
@@ -172,10 +181,6 @@ a.btn-top--sec:hover{
     font-size: small;
 }
 
-.box--tx-big {
-    font-size:xx-large;
-    line-height: 150%;
-}
 .box--tx-large {
     font-size:large;
 }
@@ -292,15 +297,19 @@ a.box__btn-main--prim:hover{
 /* ========================================= */
 
 .for-whom {
+    padding-top: 5%;
     height: 600px;
     background-color: #ADD7D6;
 }
 
+.for-whom__header {
+    margin-bottom: 5%;
+}
 
 /* how-work */
 /* ========================================= */
 .how-work {
-
+   
 }
 
 .how-work__top {
@@ -310,6 +319,28 @@ a.box__btn-main--prim:hover{
     top: -50px;
     width: 100%;
     height: 100px;
+}
+
+.how-work__btn-top {
+    position: absolute;
+    right: 45%;
+    top:-15px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    text-decoration: none;
+    border: 1px solid #045569;
+    color: #045569;
+    background-color: white;
+}
+a.how-work__btn-top:hover{
+    background-color: #77C6C4;
+    color:white;
 }
 
 .how-work__main {
