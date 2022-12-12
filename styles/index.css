@@ -64,7 +64,6 @@
     width: 1200px;
     margin: auto;
 }
-
 ._text-gs {
     font-family: 'Giga Sans Medium';
 }
@@ -75,6 +74,26 @@
 ._text-big {
     font-size:xx-large;
     line-height: 150%;
+}
+
+._text-x-large {
+    font-size:x-large;
+}
+
+._text-small {
+    font-size: small;
+}
+
+._text-large {
+    font-size:large;
+}
+
+._text-bold {
+    font-weight: bold;
+}
+
+._text-stroke {
+    -webkit-text-stroke: 0.5px #045569;
 }
 
 ._uppercase {
@@ -180,18 +199,6 @@ a.btn-top--sec:hover{
 
 .box--br {
     border-top-left-radius: 60px 60px;
-}
-
-.box--tx-small {
-    font-size: small;
-}
-
-.box--tx-large {
-    font-size:large;
-}
-
-.box--tx-bold {
-    font-weight: bold;
 }
 
 .box__main {
@@ -336,7 +343,7 @@ a.box__btn-main--prim:hover{
 .how-work__btn-top {
     position: absolute;
     right: 45%;
-    top:-15px;
+    top:-20px;
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -360,10 +367,45 @@ a.how-work__btn-top:hover{
     position: relative;
     top: -100px;
     width: 100%;
-    height: 100px;
+    margin: auto;
+    height: 800px;
+}
+
+.how-work__header {
+    padding-top: 80px;
+    text-align: center;
 }
 
 
+
+.how-work__group {
+    position: relative;
+    margin: auto;
+    width: 1920px;
+    margin-top: 100px;
+}
+
+.how-work__curve {
+    position: absolute;
+}
+
+.how-work__meet {
+    position: absolute;
+    top:-40px;
+    left: 448px;
+}
+
+.how-work__diag {
+    position: absolute;
+    top:200px;
+    left:960px;
+}
+
+.how-work__report {
+    position: absolute;
+    top:0px;
+    left:1156px;
+}
 
 
 .visually-hidden {
