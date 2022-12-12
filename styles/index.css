@@ -95,6 +95,11 @@
     color: white;
 }
 
+._relative {
+    position: relative;
+    text-align: center;
+}
+
 /* верхнее меню */
 
 
@@ -298,12 +303,19 @@ a.box__btn-main--prim:hover{
 
 .for-whom {
     padding-top: 5%;
-    height: 600px;
+    height: 800px;
     background-color: #ADD7D6;
 }
 
 .for-whom__header {
     margin-bottom: 5%;
+}
+
+.for-whom--bt {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* how-work */
