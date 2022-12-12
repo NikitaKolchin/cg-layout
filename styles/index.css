@@ -37,6 +37,10 @@
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
  /* служебные классы */
 
 ._d-flex {
@@ -328,7 +332,7 @@ a.box__btn-main--prim:hover{
 /* how-work */
 /* ========================================= */
 .how-work {
-   
+
 }
 
 .how-work__top {
@@ -391,20 +395,20 @@ a.how-work__btn-top:hover{
 
 .how-work__meet {
     position: absolute;
-    top:-40px;
-    left: 448px;
+    top:-30px;
+    left: 23%;
 }
 
 .how-work__diag {
     position: absolute;
     top:200px;
-    left:960px;
+    left:50%;
 }
 
 .how-work__report {
     position: absolute;
-    top:0px;
-    left:1156px;
+    top:-10px;
+    left:60%;
 }
 
 
