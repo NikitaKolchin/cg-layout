@@ -80,8 +80,13 @@ html {
     font-family: 'Lighthaus';
 }
 
+._text-great {
+    font-size: 55px;
+}
+
+
 ._text-big {
-    font-size:xx-large;
+    font-size: xx-large;
     line-height: 150%;
 }
 
@@ -200,6 +205,7 @@ a.btn-top--sec:hover{
 
 .box {
     max-width: 1200px;
+    height: 620px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -276,6 +282,7 @@ a.box__btn-main--prim:hover{
 
 .box-30 {
     background-color: white;
+    text-align: center;
     border-left: #045569 solid 1px;
     border-top: #045569 solid 1px;
     border-bottom: #045569 solid 1px;
@@ -285,6 +292,7 @@ a.box__btn-main--prim:hover{
 
 .box-50 {
     background-color: white;
+    text-align: center;
     border-left: #045569 solid 1px;
     border-top: #045569 solid 1px;
     border-bottom: #045569 solid 1px;
@@ -294,6 +302,7 @@ a.box__btn-main--prim:hover{
 
 .box-70 {
     background-color: white;
+    text-align: center;
     border-left: #045569 solid 1px;
     border-right: #045569 solid 1px;
     border-top: #045569 solid 1px;
@@ -444,9 +453,89 @@ a.how-work__btn-top:hover{
 }
 
 .benefits__content {
+   padding-top: 100px;
+   padding-bottom: 100px;
    width: 478px;
+   height: 936px;
 }
 
+.benefits__btn {
+    bottom: 488px;
+    left: 2.5px;
+    border-radius: 54px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    position: absolute;
+    background-color: #77C6C4;
+    text-decoration: none;
+    color: white;
+}
+
+.benefits__btn:hover {
+    text-decoration: underline
+}
+
+/* about */
+/* ========================================= */
+.about {
+    padding-top: 100px;
+    background-color: #FBFAF5;
+    padding-bottom: 100px;
+}
+.about__btns-oval {
+    border-radius: 25px;
+    margin-right: 35%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    background-color: white;
+    box-shadow: 0px 3px gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__btn-main {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.about__btn-main--prim {
+    text-decoration: none;
+    background-color: #77C6C4;
+    color: white;
+}
+
+a.about__btn-main--prim:hover{
+    background-color: #045569;
+}
+
+.about__btn-main--sec {
+    text-decoration: none;
+    color: #045569;
+}
+
+.about__btn-main--sec:hover {
+    text-decoration:underline;
+}
+
+/* footer */
+/* ========================================= */
+.footer {
+    background-image: url("../images/footer.png");
+    height: 240px;
+
+}
 
 .visually-hidden {
   position: absolute;
