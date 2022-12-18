@@ -49,6 +49,7 @@
 
 a.header__btn--prim:hover{
     background-color: #045569;
+    transition: 0.3s;
 }
 
 a.header__btn--sec:hover{
