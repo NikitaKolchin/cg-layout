@@ -65,12 +65,13 @@
 }
 
 ._container12 {
-    width: 1200px;
+    max-width: 1200px;
+    width: 95%;
     margin: auto;
 }
 
 ._container19 {
-    max-width: 1920px;
+    width: 1920px;
     margin: auto;
 }
 ._text-gs {

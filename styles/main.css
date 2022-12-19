@@ -156,19 +156,19 @@ a.box__btn-main--prim:hover{
 
 }
 
-/* .how-work__top {
+.how-work__top {
     background-color: #FBFAF5;
     border-radius: 50%;
     position: relative;
     top: -50px;
     width: 100%;
     height: 100px;
-} */
+}
 
 .how-work__btn-top {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 45%;
+    top:-20px;
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -190,6 +190,7 @@ a.how-work__btn-top:hover{
 .how-work__main {
     background-color: #FBFAF5;
     position: relative;
+    top: -100px;
     width: 100%;
     margin: auto;
     height: 800px;
@@ -202,6 +203,7 @@ a.how-work__btn-top:hover{
 
 .how-work__group {
     position: relative;
+    margin-top: 100px;
 }
 
 .how-work__curve {
@@ -226,23 +228,30 @@ a.how-work__btn-top:hover{
     left:60%;
 }
 
+.how-work__bottom{
+    /* background-color: #FBFAF5; */
+    background-color:#ADD7D6; 
+    position: relative;
+    top: 442px;
+    width: 100%;
+    margin: auto;
+    height: 104px;
+}
 
 /* help */
 /* ========================================= */
 .help {
     background-color: #ADD7D6;
-
+    padding-bottom: 100px;
+    position: relative;
 }
 
 .help__content {
-    background-image: url("../images/stone1.png"), url("../images/stone2.png"), url("../images/stone3.png"), url("../images/stone4.png") ;
-    background-repeat: no-repeat;
-    background-position: 20%, 40%, 60%, 80%;
-    height: 400px;
-
-    
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
     
 /* benefits */
 /* ========================================= */
