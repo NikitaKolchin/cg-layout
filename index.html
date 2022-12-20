@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UProffi - Работай в удовольствие</title>
     <link rel="stylesheet" href="styles/util.css">
+    <link rel="stylesheet" href="styles/hamburgers.css">
     <link rel="stylesheet" href="styles/headfooter.css">
     <link rel="stylesheet" href="styles/main.css">
+   
 </head>
 
 <body>
   <header class="header _d-flex _flex-ac">
     <div class="_container12 _d-flex _flex-sb _flex-ac">
       <a href="index.html"> <img src="images/logo_top.svg" alt=""></a>
+      <button class="hamburger hamburger--squeeze header__toggle" type="button" onclick="this.classList.toggle('is-active')">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
       <nav class="header__menu">
         <ul class="_d-flex _flex-sb header__item--decor _text-gs _uppercase">
             <li><a class = "header__item _text-medium" href="method.html">Методики</a></li>

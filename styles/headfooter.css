@@ -10,6 +10,42 @@
     border-bottom-width: 1px;
 }
 
+.header__toggle {
+    display: none;
+}
+
+@media (max-width: 770px) {
+    .header__menu, .header__btns {
+        display: none;
+    }
+    .header__toggle {
+        display:block;
+    }
+
+
+    .hamburger.is-active .hamburger-inner,
+    .hamburger.is-active .hamburger-inner::before,
+    .hamburger.is-active .hamburger-inner::after,
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: #045569;
+    }
+
+    .header__toggle.is-active ~ .header__menu {
+        display: block;
+    }
+
+    .header__toggle.is-active ~ .header__menu > ul{
+        flex-direction: column;
+    }
+
+    .header__toggle.is-active ~ .header__btns {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .header__menu {
     width: 40%;
 }
