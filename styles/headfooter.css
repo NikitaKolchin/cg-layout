@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 770px) {
-    .header__menu, .header__btns {
+    .header__menu, .header__btns,  .footer__menu, .footer__h {
         display: none;
     }
     .header__toggle {
