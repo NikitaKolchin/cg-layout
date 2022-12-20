@@ -321,7 +321,7 @@ a.about__btn-main--prim:hover{
 
 /* adaptiv */
 @media (max-width: 770px) {
-    .box__bottom, .box-30, .box-50, .box-70,  .how-work, .help, .about__figure, .footer__menu, .footer__h{
+    .box__bottom, .box-30, .box-50, .box-70,  .how-work, .help, .about__figure, .benefits__logo, .footer__menu, .footer__h{
         display: none;
     }
     .box {
