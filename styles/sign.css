@@ -1,0 +1,30 @@
+h1 {
+    margin: 2%;
+}
+
+.main {
+    padding: 3%;
+    background-color: #FBFAF5;
+    align-content: flex-start;
+    height: 510px;
+}
+
+.form {
+    padding: 3%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #77C6C4;
+}
+
+.form__btn {
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    cursor: pointer;
+    border: 1px solid #045569;
+    color: #045569;
+}
