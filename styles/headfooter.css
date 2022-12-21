@@ -2,52 +2,33 @@
 
 
 .header {
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #FFFFFF;
     border-top: #045569 solid;
     border-top-width: 1px;
-    height: 80px;
+    height: 100%;
     border-bottom: #045569 solid;
     border-bottom-width: 1px;
 }
 
-.header__toggle {
+.header__toggle, .header__menu-mobile 
+{
     display: none;
 }
 
-@media (max-width: 770px) {
-    .header__menu, .header__btns,  .footer__menu, .footer__h {
-        display: none;
-    }
-    .header__toggle {
-        display:block;
-    }
-
-
-    .hamburger.is-active .hamburger-inner,
-    .hamburger.is-active .hamburger-inner::before,
-    .hamburger.is-active .hamburger-inner::after,
-    .hamburger-inner,
-    .hamburger-inner::before,
-    .hamburger-inner::after {
-        background-color: #045569;
-    }
-
-    .header__toggle.is-active ~ .header__menu {
-        display: block;
-    }
-
-    .header__toggle.is-active ~ .header__menu > ul{
-        flex-direction: column;
-    }
-
-    .header__toggle.is-active ~ .header__btns {
-        display: flex;
-        flex-direction: column;
-    }
+.header__menu {
+    width: 1000px;
 }
 
-.header__menu {
-    width: 40%;
+.header__btns {
+    width: 30%;
+}
+
+.header__nav {
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .header__item--decor {
@@ -59,9 +40,7 @@
     color: #045569;
 }
 
-.header__btns {
-    width: 23%;
-}
+
 .header__btn {
     border-radius: 15px;
     padding-left: 20px;
@@ -70,6 +49,7 @@
     justify-content: center;
     align-items: center;
     font-size: medium;
+    cursor: pointer;
 }
 
 .header__btn--prim {
@@ -131,4 +111,52 @@ a.header__btn--sec:hover{
 
 .footer__confi{
     margin-right: 10%;
+}
+
+
+
+@media (max-width: 770px) {
+    .header__menu, .footer__menu, .footer__h {
+        display: none;
+    }
+    .header__toggle {
+        display:block;
+    }
+
+    .hamburger.is-active .hamburger-inner,
+    .hamburger.is-active .hamburger-inner::before,
+    .hamburger.is-active .hamburger-inner::after,
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: #045569;
+    }
+
+    .header__toggle.is-active + .header__menu {
+        display: flex;
+        flex-direction: column;
+        background-color: #FBFAF5;
+        border: #045569 solid 1px;
+        padding: 2%;
+        z-index: 1;
+    }
+
+    .header__toggle.is-active + .header__menu > .header__nav >ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__toggle.is-active + .header__menu > .header__btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.forms__registration {
+    display: none;
+}
+
+.forms__registration--open {
+    display: flex;
 }

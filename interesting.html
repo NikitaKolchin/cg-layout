@@ -12,27 +12,29 @@
     <link rel="stylesheet" href="styles/headfooter.css">
 </head>
 <body>
-    <header class="header _d-flex _flex-ac">
-        <div class="_container12 _d-flex _flex-sb _flex-ac">
-          <a href="index.html"> <img src="images/logo_top.svg" alt=""></a>
-          <button class="hamburger hamburger--squeeze header__toggle" type="button" onclick="this.classList.toggle('is-active')">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-          <nav class="header__menu">
-            <ul class="_d-flex _flex-sb header__item--decor _text-gs _uppercase">
-                <li><a class = "header__item _text-medium" href="method.html">Методики</a></li>
-                <li><a class = "header__item _text-medium" href="interesting.html">Интересное</a></li>
-                <li><a class = "header__item _text-medium" href="">Отзывы</a></li>
-            </ul>
-          </nav>
-          <div class="header__btns _d-flex _flex-sb">
-            <a class="header__btn header__btn--sec _text-gs _uppercase" href="">Вход</a>
-            <a class="header__btn header__btn--prim _text-gs _uppercase" href="">Регистрация</a>
-          </div>
+  <header class="header _d-flex _flex-ac _flex-sb">
+    <div class="_container12 _d-flex _flex-sb _flex-ac">
+      <a href="index.html"> <img src="images/logo_top.svg" alt=""></a>
+      <button class="hamburger hamburger--squeeze header__toggle" type="button" id="hamburger_btn">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="header__menu _d-flex _flex-sb _flex-ac">
+        <nav class="header__nav">
+          <ul class="_d-flex _flex-sa header__item--decor _text-gs _uppercase">
+              <li><a class = "header__item _text-medium" href="method.html">Методики</a></li>
+              <li><a class = "header__item _text-medium" href="interesting.html">Интересное</a></li>
+              <li><a class = "header__item _text-medium" href="">Отзывы</a></li>
+          </ul>
+        </nav>
+        <div class="header__btns _d-flex _flex-sa">
+          <a class="header__btn header__btn--sec _text-gs _uppercase" href="">Вход</a>
+          <a class="header__btn header__btn--prim _text-gs _uppercase" href="">Регистрация</a>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
     <section class="interesting">
       <div class="_container12">
         <h1 class="interesting-title">Как проходит программа <br> <span class="interesting-title interesting-title--color">проффессиональной консультации?</span></h1>
@@ -123,5 +125,6 @@
           </div>
         </div>
       </footer>
+      <script src="js/index.js"></script>
 </body>
 </html>
