@@ -322,6 +322,10 @@ a.about__btn-main--prim:hover{
     .box__bottom, .box-30, .box-50, .box-70,  .how-work, .help, .about__figure, .benefits__logo, .benefits__btn{
         display: none;
     }
+    .box__btns-oval {
+        margin-right: 30%;
+    }
+
     .box {
         max-width: 1200px;
         height: 620px;
@@ -337,6 +341,14 @@ a.about__btn-main--prim:hover{
 
     .for-whom__content:last-child {
         margin-bottom: 10%;
+    }
+
+    .benefits__content {
+        padding-left: 3%;
+    }
+
+    .about {
+        padding-left: 3%;
     }
 
   }
