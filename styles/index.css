@@ -339,7 +339,7 @@ a.about__btn-main--prim:hover{
         flex-direction: column;
     }
 
-    .for-whom__content:last-child {
+    .for-whom__content *{
         margin-bottom: 10%;
     }
 
