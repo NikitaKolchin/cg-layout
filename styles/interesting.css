@@ -172,3 +172,21 @@ background-color: #ADD7D6;
     padding: 16px 50px;
     margin: auto;
 }
+
+
+@media (max-width: 770px) {
+    .article-cards, .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step {
+        display: none;
+    }
+    .interesting-title{
+        text-align: center;
+        font-family: 'Lighthaus';
+        font-weight: 500;
+        font-size: 1.95rem;
+    
+    }
+}

@@ -15,8 +15,8 @@
     font-weight: 500;
     font-size: 3.125rem;
     color: var(--color-blue);
-
 }
+
 .content__top{
     max-height: 70px;
     align-items: center;
@@ -71,8 +71,18 @@
 }
 
 @media (max-width: 770px) {
-    .content__top{
-        max-height: 100px;
+
+    .methods-title{
+        text-align: center;
+        font-family: 'Lighthaus';
+        font-weight: 500;
+        font-size: 1.95rem;
+    }
+
+    .content__title{
+        font-family: 'Lighthaus';
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 
 }
